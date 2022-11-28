@@ -16,14 +16,14 @@ describe('Test e2e for popover show', () => {
     page = await browser.newPage();
   });
 
+  afterAll(async () => {
+    await browser.close();
+  });
+
   test('Click button and show popover', async () => {
     await page.goto(baseUrl);
     const button = await page.$('.button-toggle__button');
     button.click();
     await page.waitForSelector('.button__popover');
-  });
-
-  afterAll(async () => {
-    await browser.close();
   });
 });
