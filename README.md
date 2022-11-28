@@ -4,7 +4,7 @@
 
 [Migration Guide](https://webpack.js.org/migrate/5/)
 
-Status CI: [![Build status](https://ci.appveyor.com/api/projects/status/fnf8mxx1w8j6bwa5?svg=true)](https://ci.appveyor.com/project/Gto1103/ahj-testing)
+Status CI: [![Build status](https://ci.appveyor.com/api/projects/status/ug1vur72wyngeawg?svg=true)](https://ci.appveyor.com/project/Gto1103/ahj-forms)
 
 [Git Pages]()
 
